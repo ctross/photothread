@@ -78,6 +78,9 @@ dist[i] <- sqrt((xv[current[i]]-xv[current[i-1]])^2 + (yv[current[i]]-yv[current
     }
     
 print(sum(dist,na.rm=TRUE)/rad)*0.6
+        
+# Wrap string around posts in this order
+  current
 
 
     
